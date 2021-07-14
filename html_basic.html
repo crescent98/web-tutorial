@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>HTML 연습</title>
+
+</head>
+
+<body>
+    <h1>HTML 연습</h1>
+    본 문서는 HTML 의 기본 지식과 요소를 연습하기 위한 연습장입니다.
+    이후의 다른 개념들에 대해서는 아래 내용을 살펴보시길 바랍니다
+    <br>
+    <a href="html_div.html">HTML 공간 분할</a>
+
+    <hr>
+    <h1>제목 크기 1입니다.</h1>
+    <h2>제목 크기 2입니다.</h2>
+    <p>이 부분은 단락입니다.</p>
+
+
+    <img src="quotes.jpg" alt="이미지가 없어요">
+
+    <p>줄을 나누고 싶어서 이렇게 줄을 나눠봤습니다</p>
+    위의 예제는 여러 번의 띄어쓰기와 줄 나누기를 표현하고자
+    <hr>
+    <p>저는 하나의 단락입니다만</p>
+    <br>
+
+    <p><b>"이 부분"</b>은 단순히 글씨가 굵은 부분이에요 하하</p>
+    <p><strong>"이 부분"</strong>은 중요한 부분이라서 굵게 표현됐어요!</p>
+
+    <p><i>"이 부분"</i>은 단순히 글씨가 이탤릭체인 부분이에요!</p>
+    <p><em>"이 부분"</em>은 중요한 부분이라서 </p>
+    <p><mark>"이 부분"</mark>만 하이라이팅하고 싶어요</p>
+    <p><del>"이 부분"</del>을 지운 것처럼 하고 싶어요 히히</p>
+    <p><ins>"밑줄 친 부분"</ins>에 들어갈 알맞은 말을 고르세요 ㅋ</p>
+    <p>X<sup>2</sup> + Y<sup>3</sup> = Z</p>
+    <p>물을 나타내는 화학식은 H<sub>2</sub> 0 입니다. </p>
+
+    <br>
+    <p>HTML의 정의는
+        <q>웹 페이지를 만들기 위한 하이퍼텍스트 마크업 언어</q>
+        입니다
+    </p>
+    <p>HTML의 정의</p>
+    <blockquote>
+        인터넷 서비스의 하나인 월드 와이드 웹을 통해 볼 수 있는 문서를 만들 때 사용하는 프로그래밍 언어의 한 종류이다.
+    </blockquote>
+
+    <p><strong><abbr title="HyperText Markup Language 5">HTML5</abbr></strong>
+        란 웹 문서를 제작하는 데 쓰이는 프로그래밍 언어인 HTML 의 최신 규격입니다</p>
+
+    <address>
+        서울특별시<br>
+        강남구 테헤란로
+    </address>
+
+    <br>
+    <hr>
+    <h1>hello world</h1>
+    <h2 style="background-color:yellowgreen">
+        style 속성을 이용한 배경색 변경
+    </h2>
+    <h1 style="font-size:250%">
+        style 속성을 이용한 글자 크기 변경
+    </h1>
+    <h1 style="text-align:center">
+        style 속성을 이용한 문단 정렬 변경
+    </h1>
+
+    <h1 style="
+        background-color:white;
+        color: maroon;
+        font-size: 150%;
+        text-align: center;
+    ">
+        style 속성을 이용하여 한 번에 스타일링 하기!
+    </h1>
+
+    <br>
+    <hr>
+    <h1 style="text-align:center">색상</h1>
+    <h2 style="color:blue">색상 이름으로 표현된 파란색</h2>
+    <h2 style="color:green">색상 이름으로 표현된 녹색</h2>
+    <h2 style="color:teal">색상으로 이름으로 표현된 은색</h2>
+
+    <hr>
+    <h1>HTML 배경</h1>
+    <div>
+        <style>
+            /* body {background-color: lightyellow;} */
+        </style>
+        <h1>메롱</h1>
+        <p>메롱메롱</p>
+    </div>
+
+    <div style="background-image: url(src/prs_logo.png);">
+        <h1>hello world dfd</h1>
+
+    </div>
+
+    <div>
+        <img src="src/prs_logo.png" alt="피알즈 이미지" style="width: 320px; height: 214px; border: 3px solid black">
+    </div>
+    <a href="https://blog.naver.com/2003prs" target="_blank">
+        <img src="src/prs_logo.png" alt="flag" style="width: 320px; height: 214px">
+    </a>
+
+    <hr>
+    <h1>HTML 리스트</h1>
+    <ul>
+        <li>사과</li>
+        <li>멜론</li>
+        <li>바나나</li>
+    </ul>
+
+    <ul style="list-style-type: circle">
+        <li>수박</li>
+        <li>박수</li>
+        <li>수파게티</li>
+    </ul>
+
+    <br>
+    <ul style="list-style-type: square">
+        <li>고양이</li>
+        <li>이미지</li>
+        <li>지렁이</li>
+    </ul>
+
+    <br>
+    <h3 style="background-color: gray;">
+        정의 리스트 (description list)
+    </h3>
+    <dl>
+        <dt>호박</dt>
+        <dd>- 박과의 한해살이 덩굴성 채소</dd>
+        <dt>상추</dt>
+        <dd>- 국화과의 한해살이 또는 두해살이풀</dd>
+    </dl>
+
+    <hr>
+    <h1>
+        HTML 테이블 (Table)
+    </h1>
+    <u>테이블(Table)</u>이란 여러 종류의 데이터(data)를 보기 좋게 정리하여 보여주는 표를 의미합니다
+
+    <!--주석인데 ㅋ-->
+</body>
+
+</html>
